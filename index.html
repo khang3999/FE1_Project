@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Meow+Script&family=Sarabun:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="public/icons/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="public/css/responsive.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <!-- Header-top -->
+        <div class="header-top py-2 d-none d-md-none d-lg-block">
+            <div class="container-fluid px-5">
+                <div class="row">
+                    <div class="col-6 ">
+                        <p>Monday – Sunday: 7am – 9pm</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end align-items-center">
+                        <p>117 Dalhousie Street Quebec</p>
+                        <div class="line-divide"></div>
+                        <div><a class="header-top-phone" href="tel:+4186924555">+ 418 692 4555</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header-navbar -->
+        <div class="header-navbar-wrap">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg py-0">
+                    <div class="slide-btn d-none d-lg-block">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="navbar-y-line d-none d-lg-block"></div>
+                    <a class="navbar-brand" href="#">
+                        <img class="navbar-logo img-fluid" src="public/images/logo_white.png" alt="Delicium logo">
+                    </a>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- <i class="fa-solid fa-bars"></i> -->
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <div class="slide-line slide-line-home">
+                                </div>
+                                <div class="nav-item-menu-wrap">
+                                    <ul class="nav-item-menu py-4">
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Typography</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pages</a>
+                                <div class="slide-line"></div>
+                                <div class="nav-item-menu-wrap">
+                                    <ul class="nav-item-menu py-4">
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Typography</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Menu</a>
+                                <div class="slide-line"></div>
+                                <div class="nav-item-menu-wrap">
+                                    <ul class="nav-item-menu py-4">
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Typography</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                                <div class="slide-line"></div>
+                                <div class="nav-item-menu-wrap">
+                                    <ul class="nav-item-menu py-4">
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Typography</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                                <div class="slide-line"></div>
+                                <div class="nav-item-menu-wrap">
+                                    <ul class="nav-item-menu py-4">
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Typography</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-menu-link" href="#">Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacts</a>
+                                <div class="slide-line"></div>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-search d-none d-md-none d-lg-block">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="navbar-y-line d-none d-md-none d-lg-block"></div>
+                    <div class="navbar-booking d-none d-md-none d-lg-block">
+                        <a class="booking-link" href="">Book a Table</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Carousel -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active position-relative w-100">
+                    <img src="public/images/slider_3_1.jpg" class="d-block w-100" alt="Slide1">
+                    <div class="carousel-caption d-none d-md-none d-lg-block">
+                        <p class="carousel-caption-heading mx-auto">Coffee Time</p>
+                        <p class="carousel-caption-cfshop">COFFEESHOP</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="public/images/slider_3_2.jpg" class="d-block w-100" alt="Slide2">
+                    <div class="carousel-caption d-none d-md-none d-lg-block">
+                        <p class="carousel-caption-heading mx-auto carousel-caption-23">Barista</p>
+                        <p class="carousel-caption-cfshop">COFFEESHOP</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="public/images/slider_3_3.jpg" class="d-block w-100" alt="Slide3">
+                    <div class="carousel-caption d-none d-md-none d-lg-block">
+                        <p class="carousel-caption-heading mx-auto carousel-caption-23 w-100">Breadfasts</p>
+                        <p class="carousel-caption-cfshop">COFFEESHOP</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button> -->
+            <!-- <div class="carousel-bottom"> -->
+            <div class="carousel-indicators">
+                <div class="row container-fluid d-flex justify-content-between">
+                    <!-- Social -->
+                    <div class="col-12 col-lg-6">
+                        <div class="carousel-social-wrap">
+                            <a href="" class="carousel-social-icon-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="" class="carousel-social-icon-link">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="" class="carousel-social-icon-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="" class="carousel-social-icon-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Button slide -->
+                    <div class="col-12 col-lg-6">
+                        <div class="carousel-button-wrap d-flex">
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button class="" type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- </div> -->
+
+    </div>
+    <!-- Content -->
+    <div class="content container-fluid px-5">
+        <!-- Menu -->
+        <div class="content-menu ">
+            <!-- Menu heading -->
+            <div class="content-menu-heading position-relative w-auto">
+                <h2>THE BEST COFFEE AT THE BEST PRICE</h2>
+                <h4>Menu</h4>
+            </div>
+            <!-- Mennu content -->
+            <div class="content-menu-wrap">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="menu-item d-flex">
+                            <div class="menu-icon-wrap">
+                                <img src="public/images/icon_1.png" alt="Cappucchino">
+                            </div>
+                            <div class="menu-item-text ps-3">
+                                <h3 class="">Cappucchino</h3>
+                                <p class="menu-item-descript">Espresso + shake milk</p>
+                                <p class="menu-item-price">
+                                    $1.50
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="menu-item d-flex">
+                            <div class="menu-icon-wrap">
+                                <img src="public/images/icon_2.png" alt="Americano">
+                            </div>
+                            <div class="menu-item-text ps-3">
+                                <h3 class="">Americano</h3>
+                                <p class="menu-item-descript">Espresso + shake milk</p>
+                                <p class="menu-item-price">
+                                    $1.20
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="menu-item d-flex">
+                            <div class="menu-icon-wrap">
+                                <img src="public/images/icon_3.png" alt="Marocchino">
+                            </div>
+                            <div class="menu-item-text ps-3">
+                                <h3 class="">Marocchino</h3>
+                                <p class="menu-item-descript">Espresso + shake milk</p>
+                                <p class="menu-item-price">
+                                    $1.30
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="menu-item d-flex">
+                            <div class="menu-icon-wrap">
+                                <img src="public/images/icon_4.png" alt="Cartado">
+                            </div>
+                            <div class="menu-item-text ps-3">
+                                <h3 class="">Cartado</h3>
+                                <p class="menu-item-descript">Espresso + shake milk</p>
+                                <p class="menu-item-price">
+                                    $1.95
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="menu-item d-flex">
+                            <div class="menu-icon-wrap">
+                                <img src="public/images/icon_5.png" alt="Flappe">
+                            </div>
+                            <div class="menu-item-text ps-3">
+                                <h3 class="">Flappe</h3>
+                                <p class="menu-item-descript">Espresso + shake milk</p>
+                                <p class="menu-item-price">
+                                    $1.80
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="menu-item d-flex">
+                            <div class="menu-icon-wrap">
+                                <img src="public/images/icon_6.png" alt="Latte macchiato">
+                            </div>
+                            <div class="menu-item-text ps-3">
+                                <h3 class="">Latte macchiato</h3>
+                                <p class="menu-item-descript">Espresso + shake milk</p>
+                                <p class="menu-item-price">
+                                    $2.10
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="menu-item d-flex">
+                            <div class="menu-icon-wrap">
+                                <img src="public/images/icon_7.png" alt="Irish coffe">
+                            </div>
+                            <div class="menu-item-text ps-3">
+                                <h3 class="">Irish coffe</h3>
+                                <p class="menu-item-descript">Espresso + shake milk</p>
+                                <p class="menu-item-price">
+                                    $1.00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="menu-item d-flex">
+                            <div class="menu-icon-wrap">
+                                <img src="public/images/icon_8.png" alt="Mocha">
+                            </div>
+                            <div class="menu-item-text ps-3">
+                                <h3 class="">Mocha</h3>
+                                <p class="menu-item-descript">Espresso + shake milk</p>
+                                <p class="menu-item-price">
+                                    $1.70
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- More button -->
+                <div class="btn-more-wrap d-flex justify-content-center">
+                    <a class="btn-more" href="#">Explore more</a>
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        <div class="content-about">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="row mb-4">
+                        <div class="content-about-left">
+                            <img class="content-about-left-img img-fluid w-100 mb-4"
+                                src="public/images/promo_image_2.jpg" alt="Promo_image_2">
+                            <div class="row">
+                                <div class="col-lg-9 col-12">
+                                    <h1 class="my-4 heading-working-hours">WORKING HOURS</h1>
+                                    <ul class="working-hour-list ">
+                                        <li class="working-hour-item lh-lg d-flex">
+                                            <p class="weekday">
+                                                Monday - Sunday:
+                                            </p>
+                                            <div class="weekday-line"></div>
+                                            <p class="working-time">
+                                                9am - 11pm
+                                            </p>
+                                        </li>
+                                        <li class="working-hour-item lh-lg d-flex">
+                                            <p class="weekday">
+                                                Luch:
+                                            </p>
+                                            <div class="weekday-line"></div>
+                                            <p class="working-time">
+                                                12pm - 2pm
+                                            </p>
+                                        </li>
+                                        <li class="working-hour-item lh-lg d-flex">
+                                            <p class="weekday">
+                                                Dinner:
+                                            </p>
+                                            <div class="weekday-line"></div>
+                                            <p class="working-time">
+                                                6pm - 10pm
+                                            </p>
+                                        </li>
+                                        <li class="working-hour-item lh-lg d-flex">
+                                            <p class="weekday">
+                                                Happy Hours:
+                                            </p>
+                                            <div class="weekday-line"></div>
+                                            <p class="working-time">
+                                                4pm - 6pm
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 d-md-none d-none d-lg-block"></div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row content-about-left-bottom">
+                        <div class="btn-more-wrap d-flex justify-content-center col-lg-5 col-md-6 col-12">
+                            <a class="btn-more btn-more-about text-center" href="#">More <br> about</a>
+                        </div>
+                        <div class="img-tripadvisor col-lg-7 col-md-6 col-12 d-flex">
+                            <img class="my-auto mx-auto" src="public/images/tripadvisor.png" alt="Tripadvisor image">
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 d-md-none d-none d-lg-block"></div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="content-about-right">
+                        <h2>DELICIUM RESTORACIA AWESOME COFFEE SHOP</h2>
+                        <h4>About coffee shop</h4>
+                        <p>Opaleye yellowtail snapper, velvet catfish, graveldiver banded killifish, Old World rivuline
+                            catalufa eagle ray Moorish idol. Herring smelt barbeled dragonfish, tommy ruff. </p>
+                        <p>Queen danio velvet catfish Sacramento blackfish, bullhead shark, Colorado squawfish Russian
+                            sturgeon clown triggerfish swamp-eel paradise. Hake cookie-cutter shark silver carp hawkfish
+                            snipe armorhead catfish, moray eel silverside! Bluegill toadfish, orangespine unicorn fish.
+                            Manta Ray Moorish idol</p>
+                        <h1 class="mt-3">Since 2001</h1>
+                        <div class="row position-relative">
+                            <div class="content-about-right-img col-lg-10 col-12 container-fluid">
+                            </div>
+                            <svg class="delicium_text_circle delicium_promo_text_animation_on" viewBox="0 0 500 500">
+                                <defs>
+                                    <path id="textcircle_a5d756f"
+                                        d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"></path>
+                                </defs>
+
+                                <text style="fill:white;font-size:35px;font-weight:600">
+                                    <textPath xlink:href="#textcircle_a5d756f"
+                                        aria-label="Delicious food in our restaurant" textLength="800">
+                                        Delicious food in our restaurant </textPath>
+                                </text>
+                            </svg>
+                            <div class="btn-play position-absolute">
+                                <a href="#">
+                                    <i class="fa-solid fa-play text-white"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Delicium -->
+        <div class="content-delicium ">
+            <!-- Delicium heading -->
+            <div class="delicium-heading w-auto position-relative container-fluid">
+                <h1>Delicium</h1>
+                <div class="delicium-heading-child row">
+                    <div class="delicium-heading-child-wrap col-lg-7 col-md-7 col-12 position-relative">
+                        <h2>DELICIUM PROVIDES <br> SOME SPECIAL THINGS</h2>
+                        <h4>Services</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Delicium menu -->
+            <div class="content-delicium-menu-wrap">
+                <div class="row mb-5">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="deli-menu-item d-flex flex-column">
+                            <div class="deli-menu-img d-flex justify-content-center">
+                                <img src="public/images/icon_9.png" alt="Aroma coffee">
+                            </div>
+                            <h4 class="deli-menu-text my-3">FRESH & AROMA COFFEE
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="deli-menu-item d-flex flex-column">
+                            <div class="deli-menu-img d-flex justify-content-center">
+                                <img src="public/images/icon_10.png" alt="Aroma coffee">
+                            </div>
+                            <h4 class="deli-menu-text my-3">FRESHLY GROUND
+                                COFFEE BEANS
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="deli-menu-item d-flex flex-column">
+                            <div class="deli-menu-img d-flex justify-content-center">
+                                <img src="public/images/icon_11.png" alt="Aroma coffee">
+                            </div>
+                            <h4 class="deli-menu-text my-3">NATURAL TURKISH COFFEE
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="deli-menu-item d-flex flex-column">
+                            <div class="deli-menu-img d-flex justify-content-center">
+                                <img src="public/images/icon_12.png" alt="Aroma coffee">
+                            </div>
+                            <h4 class="deli-menu-text my-3">AROMATIC COFFEE SPICES
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="deli-menu-item d-flex flex-column">
+                            <div class="deli-menu-img d-flex justify-content-center">
+                                <img src="public/images/icon_13.png" alt="Aroma coffee">
+                            </div>
+                            <h4 class="deli-menu-text my-3">DELICIOUS BREAKFASTS
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="deli-menu-item d-flex flex-column">
+                            <div class="deli-menu-img d-flex justify-content-center">
+                                <img src="public/images/icon_14.png" alt="Aroma coffee">
+                            </div>
+                            <h4 class="deli-menu-text my-3">FRESH & CRISPY
+                                BAKED GOODS
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="deli-menu-item d-flex flex-column">
+                            <div class="deli-menu-img d-flex justify-content-center">
+                                <img src="public/images/icon_15.png" alt="Aroma coffee">
+                            </div>
+                            <h4 class="deli-menu-text my-3">NCOFFEE TO GO
+                                IN ECO CUPS
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="deli-menu-item d-flex flex-column">
+                            <div class="deli-menu-img d-flex justify-content-center">
+                                <img src="public/images/icon_16.png" alt="Aroma coffee">
+                            </div>
+                            <h4 class="deli-menu-text my-3">UNIQUE RECIPES
+                                FOR MAKING COFFEE
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery -->
+        <div class="content-gallery">
+            <!-- Gallery heading -->
+            <div class="content-gallery-heading position-relative w-auto">
+                <h2>AWESOME GALLERY OF OUR RESTAURANT</h2>
+                <h4>Gallery</h4>
+            </div>
+
+            <!-- Gallery content -->
+            <div class="row content-gallery-row-1">
+                <a href="#" class="col-lg-8 col-md-8 col-12 gallery-item">
+                    <div class="overflow-hidden">
+                        <img class="gallery-item-img w-100" src="public/images/gallery_7.jpg" alt="#">
+                    </div>
+
+                    <div class="gallery-item-img-title">Old cafe</div>
+                </a>
+                <a href="#" class="col-lg-4 col-md-4 col-12 gallery-item">
+                    <div class="overflow-hidden">
+                        <img class="gallery-item-img w-100" src="public/images/gallery_8.jpg" alt="#">
+                    </div>
+                </a>
+            </div>
+            <div class="row content-gallery-row-2 mt-4">
+                <a href="#" class="col-lg-4 col-md-4 col-12 gallery-item">
+                    <div class="overflow-hidden">
+                        <div class="gallery-item-img img-fluid"
+                            style="background:url(public/images/gallery_9.jpg);background-size: cover;width: 100%; background-repeat: no-repeat;">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="col-lg-4 col-md-4 col-12 gallery-item">
+                    <div class="overflow-hidden">
+                        <div class="gallery-item-img img-fluid"
+                            style="background:url(public/images/gallery_10.jpg);background-size: cover;width: 100%; background-repeat: no-repeat;">
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="col-lg-4 col-md-4 col-12 gallery-item">
+                    <div class="overflow-hidden">
+                        <div class="gallery-item-img img-fluid"
+                            style="background:url(public/images/gallery_11.jpg);background-size: cover;width: 100%; background-repeat: no-repeat;">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="content-testimon row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="testimon-left">
+                    <div class="testimon-left-heading">
+                        <h2>WHAT OUR RESTAURANT PATRONS SAY</h2>
+                        <h4>Testimonials</h4>
+                        <span class="double-comma">“</span>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimon-left-text">
+                                    <p>Conger eel tapetail, sheepshead minnow wallago gopher rockfish lake trout,
+                                        boafish ghoul European eel soapfish? Northern squawfish orbicular velvetfish
+                                        skipjack tuna Atlantic herring southern grayling firefish tenpounder dory
+                                        graveldiver frogfish dab snailfish. Pomfret scythe butterfish pearlfish,
+                                        freshwater eel flagtail, "suckermouth armored catfish, daggertooth pike conger
+                                        bramble shark naked-back knifefish freshwater shark, ocean perch</p>
+                                    <h2>Adame Miller</h2>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimon-left-text">
+                                    <p>Conger eel tapetail, sheepshead minnow wallago gopher rockfish lake trout,
+                                        boafish ghoul European eel soapfish? Northern squawfish orbicular velvetfish
+                                        skipjack tuna Atlantic herring southern grayling firefish tenpounder dory
+                                        graveldiver frogfish dab snailfish. Pomfret scythe butterfish pearlfish,
+                                        freshwater eel flagtail, "suckermouth armored catfish, daggertooth pike conger
+                                        bramble shark naked-back knifefish freshwater shark, ocean perch</p>
+                                    <h2>Adame Miller</h2>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimon-left-text">
+                                    <p>Conger eel tapetail, sheepshead minnow wallago gopher rockfish lake trout,
+                                        boafish ghoul European eel soapfish? Northern squawfish orbicular velvetfish
+                                        skipjack tuna Atlantic herring southern grayling firefish tenpounder dory
+                                        graveldiver frogfish dab snailfish. Pomfret scythe butterfish pearlfish,
+                                        freshwater eel flagtail, "suckermouth armored catfish, daggertooth pike conger
+                                        bramble shark naked-back knifefish freshwater shark, ocean perch</p>
+                                    <h2>Adame Miller</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators position-relative">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="testimon-right">
+                    <img class="img-fluid" src="public/images/testimonial_img_2.png" alt="Testimonials">
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog -->
+        <div class="blog">
+            <!-- Blog heading -->
+            <div class="blog-heading position-relative w-auto">
+                <h2>USEFUL ARTICLES FROM OUR BLOG</h2>
+                <h4>Blog</h4>
+            </div>
+            <!-- Blog content -->
+            <div class="row blog-content">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <a href="#" class="blog-content-item position-relative d-block overflow-hidden">
+                        <div class="blog-img-wrap">
+                            <img class="blog-img" src="public/images/blog_image_1-640x764.jpg" alt="blog-img-1">
+                        </div>
+                    </a>
+                    <a href="#" class="blog-text-title">
+                        Restaurant
+                    </a>
+                    <div class="blog-text-descript-wrap">
+                        <a href="#" class="blog-text-descript text-decoration-none">
+                            <p>New interior design in our</p>
+                            <p>Delicium restaurant</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <a href="#" class="blog-content-item position-relative d-block overflow-hidden">
+                        <div class="blog-img-wrap">
+                            <img class="blog-img" src="public/images/blog_image_9-640x764.jpg" alt="blog-img-1">
+                        </div>
+                    </a>
+                    <a href="#" class="blog-text-title">
+                        Seafood
+                    </a>
+                    <div class="blog-text-descript-wrap">
+                        <a href="#" class="blog-text-descript text-decoration-none">
+                            <p>The best events in our restaurant</p>
+                            <p>with awesome dishes</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <a href="#" class="blog-content-item position-relative d-block overflow-hidden">
+                        <div class="blog-img-wrap">
+                            <img class="blog-img" src="public/images/blog_image_2-640x764.jpg" alt="blog-img-1">
+                        </div>
+                    </a>
+                    <a href="#" class="blog-text-title">
+                        Steakhouse
+                    </a>
+                    <div class="blog-text-descript-wrap">
+                        <a href="#" class="blog-text-descript text-decoration-none">
+                            <p>We hold cool corporate events for</p>
+                            <p>largeb companies</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- button -->
+                <div class="btn-more-wrap d-flex justify-content-center">
+                    <a class="btn-more" href="#">More posts</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer container-fluid px-5">
+
+        <!-- Footerr logo -->
+        <div class="footer-logos row justify-content-between">
+            <img class="footer-logo-img img-fluid col-lg-2 col-md-3 col-6" src="public/images/partner_7.png"
+                alt="partner_7">
+
+            <img class="footer-logo-img img-fluid col-lg-2 col-md-3 col-6" src="public/images/partner_8.png"
+                alt="partner_8">
+
+            <img class="footer-logo-img img-fluid col-lg-2 col-md-3 col-6" src="public/images/partner_9.png"
+                alt="partner_9">
+
+            <img class="footer-logo-img img-fluid col-lg-2 col-md-3 col-6" src="public/images/partner_10.png"
+                alt="partner_10">
+
+            <img class="footer-logo-img img-fluid col-lg-2 col-md-3 col-6" src="public/images/partner_11.png"
+                alt="partner_11">
+
+            <img class="footer-logo-img img-fluid col-lg-2 col-md-3 col-6" src="public/images/partner_12.png"
+                alt="partner_12">
+        </div>
+
+        <!-- Footer content -->
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="footer-content-col-1-item">
+                        <img class="py-5  w-50" src="public/images/logo_white.png" alt="Logo brand">
+                        <img class=" pb-5  footer-card-list" src="public/images/payments.png" alt="Card list">
+                        <p class="pb-5 footer-text-col-1">2022 Delicium. All Rights Reserved by Artureanec</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="footer-content-col-23-item">
+                        <h6>LOCATION</h6>
+                        <p class="footer-text-col-2">
+                            117 Dalhousie Street <br> Quebec, Qc G1K 9C8
+                        </p>
+                        <h6>EMAIL</h6>
+                        <a href="mailto:" class="footer-mail-link">Info@delicium.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="footer-content-col-23-item">
+                        <h6>PHONE</h6>
+                        <a class="footer-phone-link" href="tel:+4186924555">+418 692 4555</a>
+                        <a class="footer-phone-link" href="tel:+4182464777">+418 246 4777</a>
+
+                        <h6>SOCIAL ICONS</h6>
+                        <div class="carousel-social-wrap">
+                            <a href="#" class="footer-social-icon-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#" class="footer-social-icon-link">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="#" class="footer-social-icon-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="footer-social-icon-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12 d-flex">
+                    <div class="footer-page-link-list d-flex flex-column mt-5">
+                        <a href="#" class="footer-page-link-item">
+                            Home
+                        </a>
+                        <a href="#" class="footer-page-link-item">
+                            Pages
+                        </a>
+                        <a href="#" class="footer-page-link-item">
+                            Menu
+                        </a>
+                        <a href="#" class="footer-page-link-item">
+                            Blog
+                        </a>
+                        <a href="#" class="footer-page-link-item">
+                            Shop
+                        </a>
+                        <a href="#" class="footer-page-link-item">
+                            Contacts
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky- arrow -->
+    <a href="#" class="sticky-arrow">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/sitescript.js"></script>
+</body>
+
+</html>

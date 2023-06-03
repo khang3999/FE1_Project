@@ -1,0 +1,92 @@
+/* Laptop */
+@media(min-width: 1200px) {
+   
+}
+
+/* Laptop L */
+@media(max-width: 1199px) {
+    .carousel-caption-heading{
+        width: 100%;
+        font-size: 140px;
+        padding-top: 50px;
+    }
+    .carousel-caption-23{
+        margin-top: 30px;
+        padding: 0;
+        font-size: 180px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .carousel-social-wrap, .carousel-button-wrap{
+        display: flex;
+        justify-content: center;
+    }
+    /* Button carousel */
+    .carousel-indicators [data-bs-target] {
+        margin-bottom: 5px;
+        width: 4px;
+        height: 4px;
+    }
+    .carousel-social-icon-link i{
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+
+    .delicium-heading h1{
+        font-size: 240px;
+    }
+    .navbar-booking::after{
+       
+        top: 111px;
+
+    }
+    .btn-play, .delicium_text_circle{
+        display: none;
+    }
+    .sticky-arrow{
+        display: none;
+    }
+}
+/* Phone */
+@media(max-width: 768px){
+    .carousel-social-icon-link i{
+        font-size: 15px;
+        padding: 0px 8px;
+    }
+    .delicium-heading h1{
+        font-size: 200px;
+    }
+    .delicium-heading h2{
+       width: 100%;
+    }
+}
+@media(max-width: 425px){
+    .carousel-social-icon-link i{
+        font-size: 15px;
+        padding: 0px 8px;
+    }
+    .delicium-heading h1{
+        font-size: 90px;
+        letter-spacing: -4px;
+        padding: 0;
+        margin-top: 0;
+    }
+    .content-menu-heading h2, .content-about-right h2, .content-gallery-heading h2, .testimon-left h2, .blog-heading h2{
+        font-size: 40px;
+    }
+    .content-menu-heading, .content-about-right{
+        margin: 0;
+        padding-top: 70px;
+    }
+    .delicium-heading h2{
+       width: 100%;
+       font-size: 34px;
+    }
+    .content-about-right h1{
+        font-size: 90px;
+        letter-spacing: -2px;
+        line-height: 60px;
+    }
+}
